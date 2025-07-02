@@ -59,7 +59,7 @@ valid <= not stop;
 wr_e <= wr_e_Reg;
 rd_e <= rd_e_reg when start ='1' else
 	( others => '0');
-end process;
+
 
 
 end architecture rtl;
